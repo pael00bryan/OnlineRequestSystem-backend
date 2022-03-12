@@ -1,0 +1,24 @@
+{
+  "name": "OnlineRequestSystem-backend",
+  "version": "1.0.0",
+  "description": "\"# OnlineRequestSystem-backend\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pael00bryan/OnlineRequestSystem-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pael00bryan/OnlineRequestSystem-backend/issues"
+  },
+  "homepage": "https://github.com/pael00bryan/OnlineRequestSystem-backend#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "joi": "^17.6.0"
+  }
+}
