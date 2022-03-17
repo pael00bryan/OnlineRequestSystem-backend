@@ -66,14 +66,13 @@ app.delete('/api/courses/:id', (req, res) => {
     res.send(course);
 });
 
-
-// PORT
-const port = process.env.PORT || 3000;
-app.listen(port, () => console.log(`Listening on PORT: ${port} || Running http://localhost:${port}`));
-
 function validateCourse(course){
     const schema = Joi.object({
         name: Joi.string().min(3).required()
     });
     return schema.validate(course);
 }
+
+// PORT
+const port = process.env.PORT || 5000;
+app.listen(port, () => console.log(`Listening on PORT: ${port} || Running http://localhost:${port}`));
